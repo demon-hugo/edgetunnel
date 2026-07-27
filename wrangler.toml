@@ -3,12 +3,18 @@ main = "_worker.js"
 compatibility_date = "2025-11-04"
 keep_vars = true
 
+[vars]
+OFF_LOG = "1"
+
 [[kv_namespaces]]
 binding = "KV"			#KV绑定名默认不可修改
 id = "110fe3db9a1a4aabbf4d1d65c28bc723"	#KV数据库id
 
 [env.dfjksadfjkdslfjd]
 name = "dfjksadfjkdslfjd"
+
+[env.dfjksadfjkdslfjd.vars]
+OFF_LOG = "1"
 
 [[env.dfjksadfjkdslfjd.kv_namespaces]]
 binding = "KV"
